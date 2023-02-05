@@ -3,6 +3,8 @@
 
 This repository contains the implementation of a 32-bit RISC-V processor using the RISCV32I integer instruction set. The project was developed as part of the TDT4255 course at NTNU. The processor is fully pipelined and has five stages: Fetch, Decode, Execute, Memory and Writeback. The processor uses forwarding to resolve data dependencies between instructions.
 
+![Five stage processor](https://github.com/HakonHarnes/risc-v/blob/master/doc/five-stage.png)
+
 ## Performance Improvements
 
 To further enhance the performance of the processor, the following features have been implemented:
